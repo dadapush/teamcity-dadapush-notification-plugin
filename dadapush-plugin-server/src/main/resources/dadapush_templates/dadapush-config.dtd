@@ -1,0 +1,6 @@
+<!ELEMENT dadapush EMPTY>
+<!ATTLIST dadapush
+  base-path CDATA #REQUIRED
+  channel-token CDATA #REQUIRED
+  paused CDATA #REQUIRED
+>

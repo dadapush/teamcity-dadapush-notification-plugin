@@ -1,0 +1,10 @@
+<#-- Uses FreeMarker template syntax, template guide can be found at http://freemarker.org/docs/dgui.html -->
+
+<#import "common.ftl" as common>
+
+<#global title>[probably hanging]${project.fullName}</#global>
+<#global content>Build is probably hanging.
+${project.fullName}::${buildType.name} <@common.short_build_info build/>, agent ${agentName} ${var.buildShortStatusDescription}
+Estimated duration: ${var.buildDurationEstimate}, overtime: ${var.buildDurationOvertime}
+Last message was received on: ${var.buildLastMessageTimestamp} (${var.buildTimeSinceLastMessage} ago)
+${link.buildResultsLink}</#global>

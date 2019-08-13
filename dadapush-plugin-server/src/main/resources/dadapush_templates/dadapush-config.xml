@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dadapush SYSTEM "dadapush-config.dtd">
+
+<dadapush base-path="" channel-token="" paused="false"/>

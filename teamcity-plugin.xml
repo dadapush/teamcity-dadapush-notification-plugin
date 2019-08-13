@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teamcity-plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:schemas-jetbrains-com:teamcity-plugin-v1-xml">
+  <info>
+    <name>dadapush-plugin</name>
+    <display-name>dadapush notification plugin</display-name>
+    <version>@Version@</version>
+    <description>Send real-time notifications through our API without coding and maintaining your own app for iOS or Android devices.</description>
+    <download-url>https://github.com/dadapush/teamcity-dadapush-notification-plugin</download-url>
+    <email>contacts@dadapush.com</email>
+    <vendor>
+      <name>DaDaPush</name>
+      <url>https://www.dadapush.com</url>
+    </vendor>
+  </info>
+  <deployment use-separate-classloader="true"/>
+</teamcity-plugin>
