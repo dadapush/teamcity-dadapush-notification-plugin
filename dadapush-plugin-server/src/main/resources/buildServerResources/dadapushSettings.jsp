@@ -4,7 +4,7 @@
 
 <jsp:useBean id="dadapushSettings"
              scope="request"
-             type="com.dadapush.client.DaDaPushSettingsBean"/>
+             type="com.dadapush.client.teamcity.DaDaPushSettingsBean"/>
 <bs:linkCSS dynamic="${true}">
     /css/admin/adminMain.css
     /css/admin/serverConfig.css

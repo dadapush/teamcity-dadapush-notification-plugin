@@ -1,4 +1,4 @@
-package com.dadapush.client;
+package com.dadapush.client.teamcity;
 
 import com.intellij.openapi.diagnostic.Logger;
 import freemarker.core.Environment;
@@ -27,9 +27,7 @@ import jetbrains.buildServer.serverSide.SProject;
 import jetbrains.buildServer.serverSide.SRunningBuild;
 import jetbrains.buildServer.serverSide.STest;
 import jetbrains.buildServer.serverSide.TeamCityProperties;
-import jetbrains.buildServer.serverSide.UserForm;
 import jetbrains.buildServer.serverSide.UserPropertyInfo;
-import jetbrains.buildServer.serverSide.UserPropertyValidator;
 import jetbrains.buildServer.serverSide.mute.MuteInfo;
 import jetbrains.buildServer.serverSide.problems.BuildProblemInfo;
 import jetbrains.buildServer.tests.TestName;
@@ -38,7 +36,6 @@ import jetbrains.buildServer.users.PropertyKey;
 import jetbrains.buildServer.users.SUser;
 import jetbrains.buildServer.util.StringUtil;
 import jetbrains.buildServer.vcs.VcsRoot;
-import org.apache.commons.lang3.StringUtils;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 

@@ -1,4 +1,4 @@
-package com.dadapush.client;
+package com.dadapush.client.teamcity;
 
 import com.intellij.openapi.diagnostic.Logger;
 import com.intellij.openapi.util.JDOMUtil;

@@ -1,4 +1,4 @@
-package com.dadapush.client;
+package com.dadapush.client.teamcity;
 
 public class DaDaPushSettings {
 

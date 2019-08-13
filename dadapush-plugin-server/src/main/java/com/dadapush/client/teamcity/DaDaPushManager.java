@@ -1,5 +1,8 @@
-package com.dadapush.client;
+package com.dadapush.client.teamcity;
 
+import com.dadapush.client.ApiClient;
+import com.dadapush.client.ApiException;
+import com.dadapush.client.Configuration;
 import com.dadapush.client.api.DaDaPushMessageApi;
 import com.dadapush.client.model.MessagePushRequest;
 import com.dadapush.client.model.ResultOfMessagePushResponse;

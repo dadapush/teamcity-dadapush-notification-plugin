@@ -4,15 +4,15 @@
   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
   default-autowire="constructor">
   <bean id="dadapushNotifier"
-    class="com.dadapush.client.DaDaPushNotificator"/>
+    class="com.dadapush.client.teamcity.DaDaPushNotificator"/>
   <bean id="dadapushSettingsManager"
-    class="com.dadapush.client.DaDaPushSettingsManager"/>
+    class="com.dadapush.client.teamcity.DaDaPushSettingsManager"/>
   <!--<bean id="dadapushSettingsPage"
     class="com.dadapush.client.DaDaPushSettingsPage"/>-->
   <bean id="userDadapushSettingsExtension"
-    class="com.dadapush.client.UserDaDaPushSettingsExtension"/>
+    class="com.dadapush.client.teamcity.UserDaDaPushSettingsExtension"/>
   <!--<bean id="dadapushSettingsController"
     class="com.dadapush.client.DaDaPushSettingsController"/>-->
   <bean id="dadapushManager"
-    class="com.dadapush.client.DaDaPushManager"/>
+    class="com.dadapush.client.teamcity.DaDaPushManager"/>
 </beans>

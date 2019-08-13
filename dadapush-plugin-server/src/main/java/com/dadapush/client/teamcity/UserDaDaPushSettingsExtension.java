@@ -1,7 +1,7 @@
-package com.dadapush.client;
+package com.dadapush.client.teamcity;
 
-import static com.dadapush.client.DaDaPushNotificator.CHANNEL_TOKEN_PROP;
-import static com.dadapush.client.DaDaPushNotificator.NOTIFICATOR_TYPE;
+import static com.dadapush.client.teamcity.DaDaPushNotificator.CHANNEL_TOKEN_PROP;
+import static com.dadapush.client.teamcity.DaDaPushNotificator.NOTIFICATOR_TYPE;
 
 import com.intellij.openapi.util.text.StringUtil;
 import java.util.Map;
